@@ -7,7 +7,12 @@ INJECTED from C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\Androi
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\johan\.gradle\caches\transforms-3\edeb02fb4cefd454699890f987ffc29f\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\johan\.gradle\caches\transforms-3\18d14ff6081cdd4d7e524a53938b4251\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\johan\.gradle\caches\transforms-3\408aa2c6bc6d127e4ffa32f46b3d735b\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikepenz:aboutlibraries:6.2.3] C:\Users\johan\.gradle\caches\transforms-3\2d886c773381f2bc55d5e9153b229d95\transformed\jetified-aboutlibraries-6.2.3\AndroidManifest.xml:2:1-15:12
+MERGED from [com.mikepenz:iconics-core:3.2.0] C:\Users\johan\.gradle\caches\transforms-3\ecbc816c4495622a1fa07b40766f2d33\transformed\jetified-iconics-core-3.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikepenz:fastadapter:3.3.1] C:\Users\johan\.gradle\caches\transforms-3\7aff73d4a72bf5758e578d1e8d1f3524\transformed\jetified-fastadapter-3.3.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\johan\.gradle\caches\transforms-3\678f8f90516713ab9a21055c8d2ba99f\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:17:1-56:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\johan\.gradle\caches\transforms-3\f34429d8c501e881a793f4f804366f5e\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\c77fc001d5ec1ea530c1727ca9d29f6b\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\johan\.gradle\caches\transforms-3\12b50afa49fd6473940ab601fc7726c9\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\johan\.gradle\caches\transforms-3\bfc1bf0f6e9619f2b096a90bbae1c1cb\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
@@ -67,6 +72,10 @@ MERGED from [com.google.android.material:material:1.4.0] C:\Users\johan\.gradle\
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\johan\.gradle\caches\transforms-3\18d14ff6081cdd4d7e524a53938b4251\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\johan\.gradle\caches\transforms-3\408aa2c6bc6d127e4ffa32f46b3d735b\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\johan\.gradle\caches\transforms-3\408aa2c6bc6d127e4ffa32f46b3d735b\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.mikepenz:aboutlibraries:6.2.3] C:\Users\johan\.gradle\caches\transforms-3\2d886c773381f2bc55d5e9153b229d95\transformed\jetified-aboutlibraries-6.2.3\AndroidManifest.xml:11:5-13:19
+MERGED from [com.mikepenz:aboutlibraries:6.2.3] C:\Users\johan\.gradle\caches\transforms-3\2d886c773381f2bc55d5e9153b229d95\transformed\jetified-aboutlibraries-6.2.3\AndroidManifest.xml:11:5-13:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.core:core:1.7.0] C:\Users\johan\.gradle\caches\transforms-3\6006d603408a8c1ed0edf3e550c48eb5\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
@@ -135,8 +144,18 @@ MERGED from [com.google.android.material:material:1.4.0] C:\Users\johan\.gradle\
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\johan\.gradle\caches\transforms-3\18d14ff6081cdd4d7e524a53938b4251\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\johan\.gradle\caches\transforms-3\408aa2c6bc6d127e4ffa32f46b3d735b\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\johan\.gradle\caches\transforms-3\408aa2c6bc6d127e4ffa32f46b3d735b\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mikepenz:aboutlibraries:6.2.3] C:\Users\johan\.gradle\caches\transforms-3\2d886c773381f2bc55d5e9153b229d95\transformed\jetified-aboutlibraries-6.2.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:aboutlibraries:6.2.3] C:\Users\johan\.gradle\caches\transforms-3\2d886c773381f2bc55d5e9153b229d95\transformed\jetified-aboutlibraries-6.2.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:iconics-core:3.2.0] C:\Users\johan\.gradle\caches\transforms-3\ecbc816c4495622a1fa07b40766f2d33\transformed\jetified-iconics-core-3.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:iconics-core:3.2.0] C:\Users\johan\.gradle\caches\transforms-3\ecbc816c4495622a1fa07b40766f2d33\transformed\jetified-iconics-core-3.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:fastadapter:3.3.1] C:\Users\johan\.gradle\caches\transforms-3\7aff73d4a72bf5758e578d1e8d1f3524\transformed\jetified-fastadapter-3.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:fastadapter:3.3.1] C:\Users\johan\.gradle\caches\transforms-3\7aff73d4a72bf5758e578d1e8d1f3524\transformed\jetified-fastadapter-3.3.1\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\johan\.gradle\caches\transforms-3\678f8f90516713ab9a21055c8d2ba99f\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\johan\.gradle\caches\transforms-3\678f8f90516713ab9a21055c8d2ba99f\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\johan\.gradle\caches\transforms-3\f34429d8c501e881a793f4f804366f5e\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\johan\.gradle\caches\transforms-3\f34429d8c501e881a793f4f804366f5e\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\c77fc001d5ec1ea530c1727ca9d29f6b\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\c77fc001d5ec1ea530c1727ca9d29f6b\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\johan\.gradle\caches\transforms-3\12b50afa49fd6473940ab601fc7726c9\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
@@ -219,6 +238,64 @@ INJECTED from C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\Androi
 		INJECTED from C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml
+activity#com.mikepenz.aboutlibraries.ui.LibsActivity
+ADDED from [com.mikepenz:aboutlibraries:6.2.3] C:\Users\johan\.gradle\caches\transforms-3\2d886c773381f2bc55d5e9153b229d95\transformed\jetified-aboutlibraries-6.2.3\AndroidManifest.xml:12:9-80
+	android:name
+		ADDED from [com.mikepenz:aboutlibraries:6.2.3] C:\Users\johan\.gradle\caches\transforms-3\2d886c773381f2bc55d5e9153b229d95\transformed\jetified-aboutlibraries-6.2.3\AndroidManifest.xml:12:19-77
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\johan\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20

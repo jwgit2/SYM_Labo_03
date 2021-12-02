@@ -10,82 +10,140 @@
 9        android:targetSdkVersion="31" />
 9-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:5:5-30:19
-12        android:allowBackup="true"
-12-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\johan\.gradle\caches\transforms-3\6006d603408a8c1ed0edf3e550c48eb5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:extractNativeLibs="false"
-16        android:icon="@mipmap/ic_launcher"
-16-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:7:9-43
-17        android:label="@string/app_name"
-17-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:8:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:9:9-54
-19        android:supportsRtl="true"
-19-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:10:9-35
-20        android:testOnly="true"
-21        android:theme="@style/Theme.SYM_Labo_03" >
-21-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:11:9-49
-22        <activity
-22-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:12:9-14:39
-23            android:name="com.example.Labo3.BarCodeActivity"
-23-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:13:13-61
-24            android:exported="true" />
-24-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:14:13-36
-25        <activity
-25-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:15:9-17:39
-26            android:name="com.example.Labo3.iBeaconActivity"
-26-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:16:13-61
-27            android:exported="true" />
-27-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:17:13-36
-28        <activity
-28-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:18:9-20:39
-29            android:name="com.example.Labo3.NFCActivity"
-29-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:19:13-57
-30            android:exported="true" />
-30-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:20:13-36
-31        <activity
-31-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:21:9-29:20
-32            android:name="com.example.Labo3.MainActivity"
-32-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:22:13-58
-33            android:exported="true" >
-33-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:23:13-36
-34            <intent-filter>
-34-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:24:13-28:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:25:17-69
-35-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:25:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:27:17-77
-37-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:27:27-74
-38            </intent-filter>
-39        </activity>
-40
-41        <provider
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-43            android:authorities="com.example.Labo03.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-45            <meta-data
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\johan\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\johan\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\johan\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-51        </provider>
-52    </application>
-53
-54</manifest>
+11    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+11-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+11-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+12    <uses-feature
+12-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+13        android:name="android.hardware.camera"
+13-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+14        android:required="false" />
+14-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+15    <uses-feature
+15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+16        android:name="android.hardware.camera.front"
+16-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+17        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+18    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+19    <uses-feature
+19-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+20        android:name="android.hardware.camera.autofocus"
+20-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+21        android:required="false" />
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+22    <uses-feature
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+23        android:name="android.hardware.camera.flash"
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+24        android:required="false" />
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+25    <uses-feature
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+26        android:name="android.hardware.screen.landscape"
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+27        android:required="false" />
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+28    <uses-feature
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+29        android:name="android.hardware.wifi"
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+30        android:required="false" />
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+31
+32    <application
+32-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:5:5-30:19
+33        android:allowBackup="true"
+33-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:6:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.7.0] C:\Users\johan\.gradle\caches\transforms-3\6006d603408a8c1ed0edf3e550c48eb5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:icon="@mipmap/ic_launcher"
+37-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:7:9-43
+38        android:label="@string/app_name"
+38-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:8:9-41
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:9:9-54
+40        android:supportsRtl="true"
+40-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:10:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.SYM_Labo_03" >
+42-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:11:9-49
+43        <activity
+43-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:12:9-14:39
+44            android:name="com.example.Labo3.BarCodeActivity"
+44-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:13:13-61
+45            android:exported="true" />
+45-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:14:13-36
+46        <activity
+46-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:15:9-17:39
+47            android:name="com.example.Labo3.iBeaconActivity"
+47-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:16:13-61
+48            android:exported="true" />
+48-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:17:13-36
+49        <activity
+49-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:18:9-20:39
+50            android:name="com.example.Labo3.NFCActivity"
+50-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:19:13-57
+51            android:exported="true" />
+51-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:20:13-36
+52        <activity
+52-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:21:9-29:20
+53            android:name="com.example.Labo3.MainActivity"
+53-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:22:13-58
+54            android:exported="true" >
+54-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:23:13-36
+55            <intent-filter>
+55-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:24:13-28:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:25:17-69
+56-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:25:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:27:17-77
+58-->C:\Users\johan\Documents\GitKraken\SYM_Labo_03\app\src\main\AndroidManifest.xml:27:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity android:name="com.mikepenz.aboutlibraries.ui.LibsActivity" />
+61-->[com.mikepenz:aboutlibraries:6.2.3] C:\Users\johan\.gradle\caches\transforms-3\2d886c773381f2bc55d5e9153b229d95\transformed\jetified-aboutlibraries-6.2.3\AndroidManifest.xml:12:9-80
+61-->[com.mikepenz:aboutlibraries:6.2.3] C:\Users\johan\.gradle\caches\transforms-3\2d886c773381f2bc55d5e9153b229d95\transformed\jetified-aboutlibraries-6.2.3\AndroidManifest.xml:12:19-77
+62        <activity
+62-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+63            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+63-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+64            android:clearTaskOnLaunch="true"
+64-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+65            android:screenOrientation="sensorLandscape"
+65-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+66            android:stateNotNeeded="true"
+66-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+67            android:theme="@style/zxing_CaptureTheme"
+67-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+68            android:windowSoftInputMode="stateAlwaysHidden" />
+68-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\johan\.gradle\caches\transforms-3\898ac586cc0f05db0ae6366ef3c09d9c\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+72            android:authorities="com.example.Labo03.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\johan\.gradle\caches\transforms-3\0c8b21db498ae6b6ba22706b7f0dbd1b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\johan\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\johan\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\johan\.gradle\caches\transforms-3\a889c36c21c1e2bc116f811fb6c47330\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+80        </provider>
+81    </application>
+82
+83</manifest>

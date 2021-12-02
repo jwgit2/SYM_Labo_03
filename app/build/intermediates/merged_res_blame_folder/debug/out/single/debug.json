@@ -24,12 +24,12 @@
         "source": "C:\\Users\\johan\\Documents\\GitKraken\\SYM_Labo_03\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\johan\\Documents\\GitKraken\\SYM_Labo_03\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\johan\\Documents\\GitKraken\\SYM_Labo_03\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\johan\\Documents\\GitKraken\\SYM_Labo_03\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\johan\\Documents\\GitKraken\\SYM_Labo_03\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\Documents\\GitKraken\\SYM_Labo_03\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\johan\\Documents\\GitKraken\\SYM_Labo_03\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\johan\\Documents\\GitKraken\\SYM_Labo_03\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",

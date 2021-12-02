@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\johan\\Documents\\GitKraken\\SYM_Labo_03\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl\\values-sl.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\johan\\.gradle\\caches\\transforms-3\\898ac586cc0f05db0ae6366ef3c09d9c\\transformed\\jetified-zxing-android-embedded-4.3.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,165,318",
+                        "endColumns": "58,50,152,99",
+                        "endOffsets": "109,160,313,413"
+                    },
+                    "to": {
+                        "startLines": "91,92,93,94",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7645,7704,7755,7908",
+                        "endColumns": "58,50,152,99",
+                        "endOffsets": "7699,7750,7903,8003"
+                    }
+                },
+                {
                     "source": "C:\\Users\\johan\\.gradle\\caches\\transforms-3\\6006d603408a8c1ed0edf3e550c48eb5\\transformed\\core-1.7.0\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2",
