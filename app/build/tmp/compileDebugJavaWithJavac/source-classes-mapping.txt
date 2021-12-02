@@ -1,0 +1,2 @@
+com/example/labo03/BuildConfig.java
+ com.example.labo03.BuildConfig
