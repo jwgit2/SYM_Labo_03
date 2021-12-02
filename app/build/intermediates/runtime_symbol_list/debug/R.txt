@@ -2628,6 +2628,7 @@ int string abc_shareactionprovider_share_with 0x7f0f0018
 int string abc_shareactionprovider_share_with_application 0x7f0f0019
 int string abc_toolbar_collapse_description 0x7f0f001a
 int string aboutlibrary_lib_version 0x7f0f006a
+int string androidx_camera_default_config_provider 0x7f0f0b6b
 int string androidx_startup 0x7f0f001b
 int string app_name 0x7f0f001c
 int string app_version 0x7f0f006b
