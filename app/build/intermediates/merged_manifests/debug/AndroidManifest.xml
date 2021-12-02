@@ -1,33 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.labo03"
+    package="com.example.Labo03"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="30"
+        android:minSdkVersion="29"
         android:targetSdkVersion="31" />
-
-    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.front"
-        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
-    <uses-feature
-        android:name="android.hardware.camera.autofocus"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.flash"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.screen.landscape"
-        android:required="false" />
-    <uses-feature
-        android:name="android.hardware.wifi"
-        android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -41,19 +20,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.SYM_Labo_03" >
         <activity
-            android:name="com.example.labo03.BarCodeActivity"
-            android:windowSoftInputMode="stateHidden|adjustResize" >
-        </activity>
+            android:name="com.example.Labo3.BarCodeActivity"
+            android:exported="true" />
         <activity
-            android:name="com.example.labo03.iBeaconActivity"
-            android:windowSoftInputMode="stateHidden|adjustResize" >
-        </activity>
+            android:name="com.example.Labo3.iBeaconActivity"
+            android:exported="true" />
         <activity
-            android:name="com.example.labo03.NFCActivity"
-            android:windowSoftInputMode="stateHidden|adjustResize" >
-        </activity>
+            android:name="com.example.Labo3.NFCActivity"
+            android:exported="true" />
         <activity
-            android:name="com.example.labo03.MainActivity"
+            android:name="com.example.Labo3.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,18 +37,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.mikepenz.aboutlibraries.ui.LibsActivity" />
-        <activity
-            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-            android:clearTaskOnLaunch="true"
-            android:screenOrientation="sensorLandscape"
-            android:stateNotNeeded="true"
-            android:theme="@style/zxing_CaptureTheme"
-            android:windowSoftInputMode="stateAlwaysHidden" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.example.labo03.androidx-startup"
+            android:authorities="com.example.Labo03.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
