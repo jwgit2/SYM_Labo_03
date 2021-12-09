@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.Labo03">
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.nfc" android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -17,7 +19,15 @@
             android:exported="true" />
         <activity
             android:name="com.example.Labo3.NFCActivity"
-            android:exported="true" />
+            android:exported="true" >
+        <intent-filter>
+        <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+
+        <data android:mimeType="text/plain" />
+        </intent-filter>
+        </activity>
         <activity
             android:name="com.example.Labo3.MainActivity"
             android:exported="true">
