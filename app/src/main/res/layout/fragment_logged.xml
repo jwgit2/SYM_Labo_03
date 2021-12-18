@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".nfc.LoggedFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/max_security_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MAX SECURITY" />
+
+        <Button
+            android:id="@+id/medium_security_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEDIUM SECURITY" />
+
+        <Button
+            android:id="@+id/low_security_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOW SECURITY" />
+
+        <TextView
+            android:id="@+id/auth_countdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Décompte"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

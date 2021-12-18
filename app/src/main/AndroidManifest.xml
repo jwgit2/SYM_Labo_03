@@ -21,9 +21,16 @@
         <activity
             android:name="com.example.Labo3.iBeaconActivity"
             android:exported="true" />
+
         <activity
-            android:name="com.example.Labo3.NFCActivity"
-            android:exported="true" >
+            android:name="com.example.Labo3.nfc.LoggedFragment"
+            android:exported="true" />
+        <activity
+            android:name="com.example.Labo3.nfc.LoginFragment"
+            android:exported="true" />
+        <activity
+            android:name="com.example.Labo3.nfc.NFCActivity"
+            android:exported="true">
         <intent-filter>
         <action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
