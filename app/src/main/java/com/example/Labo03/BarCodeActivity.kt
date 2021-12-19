@@ -13,6 +13,13 @@ import com.google.zxing.BarcodeFormat
 import com.google.zxing.ResultPoint
 import com.journeyapps.barcodescanner.*
 
+/**
+ * Project      : SYM_Labo3
+ * Author       : Tailhades laurent, Werkle Johann, Zeller Corentin
+ * Date         : 19.12.21
+ * Description  : activité permettant de scanenr un barcode/qrcode
+ */
+
 
 class BarCodeActivity : AppCompatActivity() {
 
