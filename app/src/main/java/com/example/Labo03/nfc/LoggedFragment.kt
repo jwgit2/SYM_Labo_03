@@ -12,10 +12,10 @@ import android.widget.Toast
 
 class LoggedFragment : Fragment() {
 
-    private lateinit var nfcAuthCountdown: TextView
+    private lateinit var nfcTimer: TextView
     private lateinit var maxBtn: Button
     private lateinit var medBtn: Button
-    private lateinit var lowBtn: Button
+    private lateinit var minBtn: Button
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,52 +27,65 @@ class LoggedFragment : Fragment() {
 
     override fun onStart() {
         super.onStart()
-        val act = activity as NFCActivity
-        nfcAuthCountdown = view?.findViewById(R.id.auth_countdown)!!
+        val nfcActivity = activity as NFCActivity
+        nfcTimer = view?.findViewById(R.id.auth_countdown)!!
         maxBtn = view?.findViewById(R.id.max_security_btn)!!
         maxBtn.setOnClickListener{
-            showAuthenticationToast(act.MED_AUTH, act)
+            if(nfcActivity.getAccessValue() < nfcActivity.MAX_AUTH){
+                Toast.makeText(this.context, "You shall not pass", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this.context, "You are the chosen one", Toast.LENGTH_SHORT).show()
+            }
         }
         medBtn = view?.findViewById(R.id.medium_security_btn)!!
         medBtn.setOnClickListener {
-            showAuthenticationToast(act.LOW_AUTH, act)
+            if(nfcActivity.getAccessValue() < nfcActivity.MED_AUTH){
+                Toast.makeText(this.context, "You shall not pass", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this.context, "You are the chosen one", Toast.LENGTH_SHORT).show()
+            }
         }
-        lowBtn = view?.findViewById(R.id.low_security_btn)!!
-        lowBtn.setOnClickListener {
-            showAuthenticationToast(0, act)
+        minBtn = view?.findViewById(R.id.low_security_btn)!!
+        minBtn.setOnClickListener {
+            if(nfcActivity.getAccessValue() < nfcActivity.LOW_AUTH){
+                Toast.makeText(this.context, "You shall not pass", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this.context, "You are the chosen one", Toast.LENGTH_SHORT).show()
+            }
         }
-        nfcAuthCountdown.postDelayed(mUpdate, 0)
+        nfcTimer.postDelayed(mUpdate, 0)
     }
 
     private val mUpdate: Runnable = object : Runnable {
         override fun run() {
             if (activity == null)
                 return
-            val act =  activity as NFCActivity
-            updateSecurity(act)
-            nfcAuthCountdown.setText("Countdown: " + act.getAuthenticationLevel().toString())
-            nfcAuthCountdown.postDelayed(this, 1000);
+            val nfcActivity =  activity as NFCActivity
+            updateSecurity(nfcActivity)
+            nfcTimer.setText("Timer: " + nfcActivity.getAccessValue().toString())
+            nfcTimer.postDelayed(this, 1000);
         }
     }
 
     private fun updateSecurity(act: NFCActivity){
-        val authLevel = act.getAuthenticationLevel()
-        if(act.MED_AUTH < authLevel){
-            //nfcAuthStatus.setText("MAX")
-        } else if((act.LOW_AUTH < authLevel) and (authLevel <= act.MED_AUTH)){
-            //nfcAuthStatus.setText("MED")
-        } else if((0 < authLevel) and (authLevel <= act.LOW_AUTH)){
-           // nfcAuthStatus.setText("LOW")
-        } else {
-           // nfcAuthStatus.setText("SCAN YOUR TAG")
-        }
-    }
+        val accessValue = act.getAccessValue()
 
-    private fun showAuthenticationToast(threshold: Int, act: NFCActivity){
-        if(act.getAuthenticationLevel() > threshold){
-            Toast.makeText(this.context, "You shall not pass", Toast.LENGTH_SHORT).show()
+        if (accessValue < act.LOW_AUTH){
+            maxBtn.visibility = View.GONE
+            medBtn.visibility = View.GONE
+            minBtn.visibility = View.GONE
+        } else if (accessValue < act.MED_AUTH){
+            maxBtn.visibility = View.GONE
+            medBtn.visibility = View.GONE
+            minBtn.visibility = View.VISIBLE
+        } else if (accessValue < act.MAX_AUTH){
+            maxBtn.visibility = View.GONE
+            medBtn.visibility = View.VISIBLE
+            minBtn.visibility = View.VISIBLE
         } else {
-            Toast.makeText(this.context, "You are the chosen one", Toast.LENGTH_SHORT).show()
+            maxBtn.visibility = View.VISIBLE
+            medBtn.visibility = View.VISIBLE
+            minBtn.visibility = View.VISIBLE
         }
     }
 }

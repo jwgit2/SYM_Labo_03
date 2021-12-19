@@ -18,12 +18,13 @@ class NFCActivity : AppCompatActivity() {
     val MIME_TEXT_PLAIN = "text/plain"
     val TAG = "Nfc Activity"
     var loggedIn = false;
-    val MAX_AUTH = 12
-    val MED_AUTH = 8
-    val LOW_AUTH = 4
+    val FULL_AUTH = 10
+    val MAX_AUTH = 6
+    val MED_AUTH = 4
+    val LOW_AUTH = 2
     private val NFC_TAG_STR = "test"
 
-    private var authenticationLevel = 0
+    private var accessValue = 0
 
     private lateinit var mNfcAdapter: NfcAdapter
 
@@ -39,10 +40,9 @@ class NFCActivity : AppCompatActivity() {
         if (!mNfcAdapter.isEnabled)
             Toast.makeText(this, "Error : Please enable NFC", Toast.LENGTH_LONG).show()
         if(savedInstanceState == null)
-            supportFragmentManager.beginTransaction().replace(R.id.nfc_fragment_container,
+            supportFragmentManager.beginTransaction().replace(R.id.nfc_fragment_holder,
                 LoginFragment()).commit()
         setContentView(R.layout.activity_nfc)
-
     }
 
     override fun onResume() {
@@ -52,31 +52,23 @@ class NFCActivity : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
-        stopForegroundDispatch()
-
+        if(mNfcAdapter != null)
+            mNfcAdapter.disableForegroundDispatch(this)
     }
 
     override fun onNewIntent(intent: Intent?) {
         super.onNewIntent(intent)
-        processNfcTag(intent)
+        NfcTagDetected(intent)
     }
 
-    private fun processNfcTag(intent: Intent?){
+    private fun NfcTagDetected(intent: Intent?){
         if (intent != null) {
             if (NfcAdapter.ACTION_NDEF_DISCOVERED == intent.action) {
-                val record = deserializeNfcData(intent)?.get(0)
-                if (record != null) {
-                    val payload: String = String(record.payload)
+                val data = unserializeData(intent)?.get(0)
+                if (data != null) {
+                    val payload: String = String(data.payload)
                     if(payload.subSequence(3, payload.length) == NFC_TAG_STR) {
-                        authenticationLevel = MAX_AUTH;
-                        object: CountDownTimer(12000, 1000) {
-                            override fun onTick(p0: Long) {
-                                authenticationLevel -= 1
-                            }
-                            override fun onFinish() {
-                                authenticationLevel = 0
-                            }
-                        }.start()
+                        startTimer()
                     }
                 }
             }
@@ -102,11 +94,19 @@ class NFCActivity : AppCompatActivity() {
         mNfcAdapter.enableForegroundDispatch(this, pendingIntent, filters, techList)
     }
 
-    private fun stopForegroundDispatch() {
-        mNfcAdapter.disableForegroundDispatch(this)
+
+    fun loggedIn() {
+        loggedIn = true;
+        supportFragmentManager.findFragmentById(R.id.nfc_fragment_holder)?.let {
+            supportFragmentManager.beginTransaction().remove(
+                it
+            ).add(R.id.nfc_fragment_holder,
+                LoggedFragment()
+            ).commit()
+        };
     }
 
-    private fun deserializeNfcData(intent: Intent?): Array<out NdefRecord>? {
+    private fun unserializeData(intent: Intent?): Array<out NdefRecord>? {
         val ndefMessagesArray = intent!!.getParcelableArrayExtra(
             NfcAdapter.EXTRA_NDEF_MESSAGES
         )
@@ -117,19 +117,22 @@ class NFCActivity : AppCompatActivity() {
         return null
     }
 
-    fun loggedIn() {
-        loggedIn = true;
-        supportFragmentManager.findFragmentById(R.id.nfc_fragment_container)?.let {
-            supportFragmentManager.beginTransaction().remove(
-                it
-            ).add(R.id.nfc_fragment_container,
-                LoggedFragment()
-            ).commit()
-        };
+    fun startTimer(){
+        accessValue = FULL_AUTH;
+        object: CountDownTimer((FULL_AUTH * 1000).toLong(), 1000) {
+            //https://developer.android.com/reference/android/os/CountDownTimer
+            override fun onTick(p0: Long) {
+                if (accessValue > 0) {
+                    accessValue -= 1
+                }
+            }
+            override fun onFinish() {
+                accessValue = 0
+            }
+        }.start()
     }
-
-    fun getAuthenticationLevel(): Int {
-        return authenticationLevel
+    fun getAccessValue(): Int {
+        return accessValue
     }
 
 
