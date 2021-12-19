@@ -20,16 +20,15 @@ pour rendre plus compliqué le clonage des tags NFC ? Existe-il des limitations 
 d’autres possibilités ?
 > 
 
-Les messages NDEF n’ont pas de protection pour l’écriture ou lecture on ne peut donc pas empecher de copier un tag NFC. Pour palier a ce problème il y a des identifiants qui sont read-only mais ca n’empeche pas de lire ces données.
-Dans l’API Android on peut remarquer que des type de NFC MIFARE sont disponible et permettent de lire des partitions a l’aide de clé mais cela n’empeche toujours pas la réplication mais uniquement la lecture en clair. Donc pour pouvoir avoir un systeme plus avancé il faudrait un mini-ordinateur capable de faire un mechanisme plus sure.
+Les messages NDEF n’ont pas de protection pour l’écriture ou lecture on ne peut donc pas empêcher de copier un tag NFC. Pour palier a ce problème il y a des identifiants qui sont read-only mais ça n’empêche pas de lire ces données.
+Dans l’API Android on peut remarquer que des types de NFC MIFARE sont disponibles et permettent de lire des partitions a l’aide de clé mais cela n’empêche toujours pas la réplication mais uniquement la lecture en clair. Donc pour pouvoir avoir un système plus avancé il faudrait un mini-ordinateur capable de faire un mécanisme plus sure.
 
 [https://developer.android.com/guide/topics/connectivity/nfc/advanced-nfc](https://developer.android.com/guide/topics/connectivity/nfc/advanced-nfc)
 
 > Est-ce qu’une solution basée sur la vérification de la présence d’un iBeacon sur l’utilisateur,
 par exemple sous la forme d’un porte-clés serait préférable ? Veuillez en discuter.
 > 
-
-Cela permetterait d’augmenter le niveau de sécurité par la compléxité de la mise en oeuvre mais les iBeacons font juste de l’emission donc on peut tout a fait “émuler” un iBeacon et le problème de clonage est ducoup le même.
+Cela permettrait d’augmenter le niveau de sécurité par la complexité de la mise en œuvre mais les iBeacons font juste de l’émission donc on peut tout à fait “émuler” un iBeacon et le problème de clonage est du coup le même.
 
 ## Codes-barres
 
@@ -48,11 +47,11 @@ Les codes QR sont constitués de plusieurs lignes et colonnes. La combinaison de
 
 ![image](https://user-images.githubusercontent.com/58049740/146684971-e0063f5f-1e59-477b-ad3b-b6451c36aae2.png)
 
-Après quelques tests, on se rend compte qu'il n'y a pas de problèmes à travailler avec des qr code de très grande taille, ici avec 2000 charactères et en utilisant notre application. Après on peut imaginer que tout les téléphones n'ont pas de bon smartphone avec une camera assez correct (ici un pixel 5). 
+Après quelques tests, on se rend compte qu'il n'y a pas de problèmes à travailler avec des qr code de très grande taille, ici avec 2000 caractères et en utilisant notre application. Après on peut imaginer que tous les téléphones n'ont pas de bon smartphone avec une caméra assez correct (ici un pixel 5). 
 
 ![image](https://user-images.githubusercontent.com/58049740/146684298-c918dea7-c70e-4062-a3eb-ec896f08be11.png)
 
-Peut être que ça peut commencer à poser problème avec une carte de visite qui comprend des informations beaucoup trop compliqué.
+Peut-être que ça peut commencer à poser problème avec une carte de visite qui comprend des informations beaucoup trop compliqué.
 
 
 
@@ -76,7 +75,7 @@ affirmation en vous basant sur 2-3 exemples de cas d’utilisations (use-cases) 
 
 **Balise pour les Musées**
 
-Pour des informations publiques qui peuvents êtres constamments émisents aux personnes a proximitées, les beacons sont la solutions préférée car le nfc à une portée très courte et les restrictions sur IOS moins grandes. Mais les tags NFC sont pratique dans des lieux qui peuvent avoir une grandes concentrations dd’information comme par exemple les musées. C’est plus comparable a un Qr code qui n’est pas influencé par les conditions lumineuse (qui peuvent etre sombre dans les musées). De plus il n’y a pas besoin de changer les piles contrairement au beacons.
+Pour des informations publiques qui peuvent être constamment émise aux personnes a proximité, les beacons sont la solution préférée car le nfc à une portée très courte et les restrictions sur IOS moins grandes. Mais les tags NFC sont pratiques dans des lieux qui peuvent avoir une grande concentration d’information comme  les musées. C’est plus comparable a un Qr code qui n’est pas influencé par les conditions lumineuses (qui peuvent être sombres dans les musées). De plus il n’y a pas besoin de changer les piles contrairement au beacons.
 
 [https://www.mabalise.be/2021/09/27/comment-la-nfc-va-sublimer-lexperience-des-visiteurs-de-votre-musee-exposition-ou-galerie-dart/](https://www.mabalise.be/2021/09/27/comment-la-nfc-va-sublimer-lexperience-des-visiteurs-de-votre-musee-exposition-ou-galerie-dart/)
 
