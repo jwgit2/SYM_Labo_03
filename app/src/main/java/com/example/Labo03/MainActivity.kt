@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         switchToActivityiBeacon = findViewById(R.id.main_iBeacon_btn)
         switchToActivityiBeacon.setOnClickListener {
-            val intent = Intent(this@MainActivity, iBeaconActivity::class.java)
+            val intent = Intent(this@MainActivity, IBeaconActivity::class.java)
             startActivity(intent)
         }
 

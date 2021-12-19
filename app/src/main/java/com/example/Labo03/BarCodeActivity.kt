@@ -40,9 +40,6 @@ class BarCodeActivity : AppCompatActivity() {
         override fun possibleResultPoints(resultPoints: List<ResultPoint>) {}
     }
 
-    /**
-     * Sur création de l'activité
-     */
 
     @Override
     override fun onCreate(savedInstanceState: Bundle?) {

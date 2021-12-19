@@ -4,4 +4,8 @@
     <string name="nfc_password">Mot de passe</string>
     <string name="nfc_cancel_btn">Annuler</string>
     <string name="nfc_validate_btn">Connexion</string>
+    <string name="uuid">UUID</string>
+    <string name="major">major</string>
+    <string name="minor">minor</string>
+    <string name="rssi">rssi</string>
 </resources>
