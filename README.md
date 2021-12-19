@@ -39,13 +39,31 @@ Cela permetterait d’augmenter le niveau de sécurité par la compléxité de l
 expérimenter, avec le générateur conseillé5 de codes-barres (QR), de générer différentes
 tailles de QR-codes. Pensez-vous qu’il est envisageable d’utiliser confortablement des QRcodes complexes (par exemple du contenant >500 caractères de texte, une vCard très
 complète ou encore un certificat Covid) ?
-> 
+
+Selon les info trouvées sur le site qrcode.com,
+
+Les codes QR standard peuvent contenir jusqu'à 3 Ko de données.
+
+Les codes QR sont constitués de plusieurs lignes et colonnes. La combinaison de ces lignes et colonnes forme une grille de modules (carrés). Il peut y avoir au maximum 177 lignes et 177 colonnes, ce qui signifie que le nombre maximal possible de modules est de 31 329. À l'œil nu, ce ne sont que de petits carrés qui ne signifient pas grand-chose, mais la disposition exacte de ces modules permet au code QR de coder ses données. Cela signifie que, contrairement aux codes-barres traditionnels qui sont unidimensionnels et utilisent une rangée de lignes, les codes QR utilisent deux dimensions, ce qui leur permet de stocker beaucoup plus de données dans le même espace.
+
+Après quelques tests, on se rend compte qu'il n'y a pas de problèmes à travailler avec des qr code de très grande taille, ici avec 2000 charactères et en utilisant notre application. Après on peut imaginer que tout les téléphones n'ont pas de bon smartphone avec une camera assez correct (ici un pixel 5). 
+
+![image](https://user-images.githubusercontent.com/58049740/146684284-5d747af7-21e4-48ac-be0d-de02651e7e86.png)
+
+![image](https://user-images.githubusercontent.com/58049740/146684298-c918dea7-c70e-4062-a3eb-ec896f08be11.png)
+
+
+
+
+
 
 > Il existe de très nombreux services sur Internet permettant de générer des QR-codes
 dynamiques. Veuillez expliquer ce que sont les QR-codes dynamiques. Quels sont les avantages
 et respectivement les inconvénients à utiliser ceux-ci en comparaison avec des QR-codes
 statiques. Vous adapterez votre réponse à une utilisation depuis une plateforme mobile
-> 
+
+
+
 
 ## Balises iBeacon
 
