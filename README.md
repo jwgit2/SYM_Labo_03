@@ -51,7 +51,7 @@ Après quelques tests, on se rend compte qu'il n'y a pas de problèmes à travai
 
 ![image](https://user-images.githubusercontent.com/58049740/146684298-c918dea7-c70e-4062-a3eb-ec896f08be11.png)
 
-Peut-être que ça peut commencer à poser problème avec une carte de visite qui comprend des informations beaucoup trop compliqué.
+Peut-être que ça peut commencer à poser problème avec une carte de visite qui comprend beaucoup trop d'informations, mais ce n'est pas vraiment le but d'une vcard
 
 
 
