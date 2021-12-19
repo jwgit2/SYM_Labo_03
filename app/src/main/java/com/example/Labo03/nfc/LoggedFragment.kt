@@ -10,6 +10,13 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 
+/**
+ * Project      : SYM_Labo3
+ * Author       : Tailhades laurent, Werkle Johann, Zeller Corentin
+ * Date         : 19.12.21
+ * Description  : fragment des boutons d'authentification de l'activié NFC
+ */
+
 class LoggedFragment : Fragment() {
 
     private lateinit var nfcTimer: TextView
