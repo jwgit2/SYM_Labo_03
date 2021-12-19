@@ -64,9 +64,7 @@ statiques. Vous adapterez votre réponse à une utilisation depuis une plateform
 Un code QR dynamique est un code QR dans lequel est encodée une courte URL de redirection. L'information que vous essayez de communiquer n'est pas encodée dans le code QR lui-même, comme dans le cas d'un code QR statique. Au lieu de cela, l'information que vous essayez de communiquer se trouve sur un site Web, et un code QR dynamique redirige vers ce site. Et le meilleur ? L'URL de redirection peut changer. Contrairement à un code QR statique, les informations contenues dans un code QR dynamique peuvent changer sans qu'un nouveau code soit nécessaire. Lorsque l'on compare un code QR à un code-barres, c'est l'un des principaux avantages.
 
 Si les codes QR statiques ne sont pas idéaux pour le monde des affaires ou du marketing en raison de leur manque d'adaptabilité, ils fonctionnent bien pour un usage personnel car vous ne suivez probablement pas les mesures de votre campagne.
-Ils sont idéaux pour fournir des informations détaillées lors d'événements ponctuels et de campagnes marketing uniques. Les données stockées ne peuvent pas être modifiées, et vous devez recréer un nouveau code QR pour modifier les informations.
-
-
+Ils sont idéaux pour fournir des informations détaillées lors d'événements ponctuels et de campagnes marketing uniques. De plus, ils n'ont pas besoin de connection au réseau pour pouvoir afficher des informations.
 
 ## Balises iBeacon
 
