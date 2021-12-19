@@ -48,8 +48,7 @@ Les codes QR sont constitués de plusieurs lignes et colonnes. La combinaison de
 
 Après quelques tests, on se rend compte qu'il n'y a pas de problèmes à travailler avec des qr code de très grande taille, ici avec 2000 charactères et en utilisant notre application. Après on peut imaginer que tout les téléphones n'ont pas de bon smartphone avec une camera assez correct (ici un pixel 5). 
 
-![image](https://user-images.githubusercontent.com/58049740/146684284-5d747af7-21e4-48ac-be0d-de02651e7e86.png)
-
+![image](https://user-images.githubusercontent.com/58049740/146684971-e0063f5f-1e59-477b-ad3b-b6451c36aae2.png)
 ![image](https://user-images.githubusercontent.com/58049740/146684298-c918dea7-c70e-4062-a3eb-ec896f08be11.png)
 
 Peut être que ça peut commencer à poser problème avec une carte de visite qui comprend des informations beaucoup trop compliqué.
