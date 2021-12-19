@@ -16,8 +16,11 @@ import com.example.Labo03.beacon.BeaconAdapter
 import org.altbeacon.beacon.*
 import org.altbeacon.beacon.powersave.BackgroundPowerSaver
 
-/***
- * Activitée pour l'utilisation de l'iBeacon, faite avec une recycler view et avec la librairie
+/**
+ * Project      : SYM_Labo3
+ * Author       : Tailhades laurent, Werkle Johann, Zeller Corentin
+ * Date         : 19.12.21
+ * Description  : Activitée pour l'utilisation de l'iBeacon, faite avec une recycler view et avec la librairie
  * https://altbeacon.github.io/android-beacon-library/
  * necessite les permissions de localisation et de bluetooth
  *
@@ -25,6 +28,7 @@ import org.altbeacon.beacon.powersave.BackgroundPowerSaver
  * see also InternalBeaconConsumer from altbeacon
  * https://altbeacon.github.io/android-beacon-library/autobind.html
  */
+
 class IBeaconActivity : AppCompatActivity(), BeaconConsumer {
     private lateinit var beaconManager: BeaconManager
     private lateinit var beaconAdapter: BeaconAdapter
