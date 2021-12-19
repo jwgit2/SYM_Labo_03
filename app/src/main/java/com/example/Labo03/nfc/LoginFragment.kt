@@ -10,6 +10,13 @@ import com.example.Labo03.R
 import android.widget.EditText
 import android.widget.Toast
 
+/**
+ * Project      : SYM_Labo3
+ * Author       : Tailhades laurent, Werkle Johann, Zeller Corentin
+ * Date         : 19.12.21
+ * Description  : fragment login de l'activié NFC
+ */
+
 class LoginFragment : Fragment() {
 
     private lateinit var login: EditText
