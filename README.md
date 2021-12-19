@@ -52,8 +52,7 @@ Après quelques tests, on se rend compte qu'il n'y a pas de problèmes à travai
 
 ![image](https://user-images.githubusercontent.com/58049740/146684298-c918dea7-c70e-4062-a3eb-ec896f08be11.png)
 
-
-
+Peut être que ça peut commencer à poser problème avec une carte de visite qui comprend des informations beaucoup trop compliqué.
 
 
 
@@ -62,6 +61,10 @@ dynamiques. Veuillez expliquer ce que sont les QR-codes dynamiques. Quels sont l
 et respectivement les inconvénients à utiliser ceux-ci en comparaison avec des QR-codes
 statiques. Vous adapterez votre réponse à une utilisation depuis une plateforme mobile
 
+Un code QR dynamique est un code QR dans lequel est encodée une courte URL de redirection. L'information que vous essayez de communiquer n'est pas encodée dans le code QR lui-même, comme dans le cas d'un code QR statique. Au lieu de cela, l'information que vous essayez de communiquer se trouve sur un site Web, et un code QR dynamique redirige vers ce site. Et le meilleur ? L'URL de redirection peut changer. Contrairement à un code QR statique, les informations contenues dans un code QR dynamique peuvent changer sans qu'un nouveau code soit nécessaire. Lorsque l'on compare un code QR à un code-barres, c'est l'un des principaux avantages.
+
+Si les codes QR statiques ne sont pas idéaux pour le monde des affaires ou du marketing en raison de leur manque d'adaptabilité, ils fonctionnent bien pour un usage personnel car vous ne suivez probablement pas les mesures de votre campagne.
+Ils sont idéaux pour fournir des informations détaillées lors d'événements ponctuels et de campagnes marketing uniques. Les données stockées ne peuvent pas être modifiées, et vous devez recréer un nouveau code QR pour modifier les informations.
 
 
 
