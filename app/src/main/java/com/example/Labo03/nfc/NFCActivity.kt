@@ -14,6 +14,13 @@ import android.nfc.NdefMessage
 import android.nfc.NdefRecord
 import android.os.CountDownTimer
 
+/**
+ * Project      : SYM_Labo3
+ * Author       : Tailhades laurent, Werkle Johann, Zeller Corentin
+ * Date         : 19.12.21
+ * Description  : activité de scan d'un nfc
+ */
+
 class NFCActivity : AppCompatActivity() {
     val MIME_TEXT_PLAIN = "text/plain"
     val TAG = "Nfc Activity"
