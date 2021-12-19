@@ -7,6 +7,13 @@ import android.widget.Button
 import com.example.Labo03.R
 import com.example.Labo3.nfc.*
 
+/**
+ * Project      : SYM_Labo3
+ * Author       : Tailhades laurent, Werkle Johann, Zeller Corentin
+ * Date         : 19.12.21
+ * Description  : Activité principale comprenant les 3 boutons menant 
+ *                aux différents activitées
+ */
 
 class MainActivity : AppCompatActivity() {
 
