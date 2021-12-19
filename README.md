@@ -47,7 +47,7 @@ Les codes QR sont constitués de plusieurs lignes et colonnes. La combinaison de
 
 ![image](https://user-images.githubusercontent.com/58049740/146684971-e0063f5f-1e59-477b-ad3b-b6451c36aae2.png)
 
-Après quelques tests, on se rend compte qu'il n'y a pas de problèmes à travailler avec des qr code de très grande taille, ici avec 2000 caractères et en utilisant notre application. Après on peut imaginer que tous les téléphones n'ont pas de bon smartphone avec une caméra assez correct (ici un pixel 5). 
+Après quelques tests, on se rend compte qu'il n'y a pas de problèmes à travailler avec des qr code de très grande taille, ici avec 2000 caractères et en utilisant notre application. Après on peut imaginer que tous les gens n'ont pas de bon smartphone avec une caméra assez correct pour ce genre de qrCode très compliqué.(ici un googe pixel 4a a été utilisé). 
 
 ![image](https://user-images.githubusercontent.com/58049740/146684298-c918dea7-c70e-4062-a3eb-ec896f08be11.png)
 
