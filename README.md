@@ -46,9 +46,10 @@ Les codes QR standard peuvent contenir jusqu'à 3 Ko de données.
 
 Les codes QR sont constitués de plusieurs lignes et colonnes. La combinaison de ces lignes et colonnes forme une grille de modules (carrés). Il peut y avoir au maximum 177 lignes et 177 colonnes, ce qui signifie que le nombre maximal possible de modules est de 31 329. À l'œil nu, ce ne sont que de petits carrés qui ne signifient pas grand-chose, mais la disposition exacte de ces modules permet au code QR de coder ses données. Cela signifie que, contrairement aux codes-barres traditionnels qui sont unidimensionnels et utilisent une rangée de lignes, les codes QR utilisent deux dimensions, ce qui leur permet de stocker beaucoup plus de données dans le même espace.
 
+![image](https://user-images.githubusercontent.com/58049740/146684971-e0063f5f-1e59-477b-ad3b-b6451c36aae2.png)
+
 Après quelques tests, on se rend compte qu'il n'y a pas de problèmes à travailler avec des qr code de très grande taille, ici avec 2000 charactères et en utilisant notre application. Après on peut imaginer que tout les téléphones n'ont pas de bon smartphone avec une camera assez correct (ici un pixel 5). 
 
-![image](https://user-images.githubusercontent.com/58049740/146684971-e0063f5f-1e59-477b-ad3b-b6451c36aae2.png)
 ![image](https://user-images.githubusercontent.com/58049740/146684298-c918dea7-c70e-4062-a3eb-ec896f08be11.png)
 
 Peut être que ça peut commencer à poser problème avec une carte de visite qui comprend des informations beaucoup trop compliqué.
