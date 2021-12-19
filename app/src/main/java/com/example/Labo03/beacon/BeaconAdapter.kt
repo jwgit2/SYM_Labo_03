@@ -10,11 +10,15 @@ import com.example.Labo03.R
 
 
 /**
- * Adapter pour la reclycler view des beacons
+ * Project      : SYM_Labo3
+ * Author       : Tailhades laurent, Werkle Johann, Zeller Corentin
+ * Date         : 19.12.21
+ * Description  :  Adapter pour la reclycler view des beacons
  *
  * https://developer.android.com/guide/topics/ui/layout/recyclerview
  * https://openclassrooms.com/fr/courses/4568576-recuperez-et-affichez-des-donnees-distantes/4893781-implementez-votre-premiere-recyclerview
  */
+
 class BeaconAdapter(private var beaconsToDisplay: List<BeaconData>): RecyclerView.Adapter<BeaconAdapter.BeaconRecyclerViewHolder>() {
 
     /**
